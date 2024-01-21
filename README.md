@@ -1,3 +1,18 @@
+# Decentralized Stablecoin (DSC)
+
+1. Anchored / Pegged to US Dollar = 1 DSC = 1 USD
+  - Using Chainlink Price Feeds to get the current price of ETH/USD and BTC/USD
+  - Using the price, ETH & BTC are converted to USD accordingly
+2. Algorithmic Minting Mechanism to ensure stability the ensure Decentralization
+  - Minting can only happen if enough collateral is provided
+3. Collateralized by exogenous Crypto Assets:
+  - ETH (wrapped ETH)
+  - BTC (Wrapped BTC)
+  Wrapped means that the asset is locked in a smart contract and a token is minted on the Ethereum blockchain.
+  So we are essentially dealing with the ERC20 versions of BTC and ETH.
+
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
